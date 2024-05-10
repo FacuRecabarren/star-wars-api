@@ -1,6 +1,7 @@
 import { Teko } from "next/font/google";
 import "./globals.css";
 import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 
 const teko = Teko({ subsets: ["latin"] });
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={teko.className}>
         <Nav/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
