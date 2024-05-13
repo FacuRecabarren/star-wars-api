@@ -6,7 +6,7 @@ function IndexPage() {
   return (
     <div className='h-screen flex flex-col items-center justify-center gap-20'>
       <h1 className='text-white font-black text-7xl'>API STAR WARS</h1>
-      <Image src="/fondoPrincipal.jpg" layout='fill' objectFit='cover' alt="" className='object-cover absolute -z-10 lg:brightness-[0.1] lg:grayscale'/>
+      <Image src="/FondoPrincipal.jpg" layout='fill' objectFit='cover' alt="" className='object-cover absolute -z-10 lg:brightness-[0.1] lg:grayscale'/>
       <div className='flex flex-col items-center lg:flex lg:flex-row justify-center gap-10 lg:items-end'>
         <Link href='/films' className='bg-[#0d0d0d] w-[20rem] lg:w-[30rem] h-[10rem] flex justify-center items-center group'>
           <h2 className='bg-[#ffe81f] text-[#0d0d0d] text-3xl lg:text-4xl py-2 px-4 font-medium w-full mx-10 text-center hover:scale-[1.02] duration-300 hover:bg-opacity-50'>FILM SECTION</h2>
