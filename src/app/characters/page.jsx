@@ -84,8 +84,8 @@ const CharactersPage = () => {
           {pageNumbers.map((pageNumber, index) => (
             <button
               key={index}
-              className={`bg-[#0d0d0d] font-semibold py-3 px-4 flex justify-center items-center hover:bg-[#ffe81f] hover:text-black duration-300 cursor-pointer text-white ${
-                page === pageNumber ? 'text-black bg-[#ffe81f] hover:text-black' : '' // Aplicar clase si es la página actual
+              className={`bg-[#0d0d0d] font-semibold py-3 px-4 flex justify-center items-center hover:bg-[#ffe81f] hover:text-black duration-300 cursor-pointer ${
+                page === pageNumber ? 'text-black bg-[#ffe81f] hover:text-black' : 'text-white'
               }`}
               onClick={() => handlePageChange(pageNumber)}
             >
